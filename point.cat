@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point2003.cat : 
+* point2004.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -71,6 +71,7 @@
 * 2003 Jun 09 - 12 sp-line 5-point sources added (suggested by Thomas Lowe)
 *             - 3 sp-line 5-pt sources (WXPsc, oCeti, CIT6) given [c] status also
 * 2003 Jun 20 - VCyg coords consolidated
+* 2004 Mar 29 - 5 additional CO:2-1 spectral-line sources added (courtesy TBL)
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -535,8 +536,14 @@ GL3068          23 19 12.39  + 17 11 35.4  RJ  -   31.0  6.1   31.0  LSR  RADIO 
 * Further sources useful for spectral-line fivepointing 
 * at CO:2-1  ( and at CO:3-2 where noted).
 * Sources identified by Thomas Lowe (2003). 
+* STCam thru WCMa added 29 Mar 2004
 *
 RFor            02 29 15.31  - 26 05 55.7  RJ  -    2.0  0.5   35.0  LSR  RADIO [s]  2-1 : 14.2  3-2 also
+STCam           04 51 13.35  + 68 10 07.6  RJ  -   10.9  0.4   25.0  LSR  RADIO [s]  2-1 :  4.1
+WOri            05 05 23.72  + 01 10 39.5  RJ  +    7.5  0.5   25.0  LSR  RADIO [s]  2-1 : 6.7
+YTau            05 45 39.41  + 20 41 42.1  RJ  +   15.0  0.5   30.0  LSR  RADIO [s]  2-1 : 7.6
+RYMon           07 06 56.48  - 07 33 26.5  RJ  -    8.8  0.3   30.0  LSR  RADIO [s]  2-1 : 3.8
+WCMa            07 08 03.44  - 11 55 23.8  RJ  +    0.0  0.5   25.0  LSR  RADIO [s]  2-1 : 5.1
 XCnc            08 55 22.88  + 17 13 52.6  RJ  -   13.0  0.4   17.0  LSR  RADIO [s]  2-1 :  4.2  3-2 also
 YHya            09 51 03.72  - 23 01 02.3  RJ  -    7.0  0.4   20.0  LSR  RADIO [s]  2-1 :  5.4  3-2 also
 UHya            10 37 33.27  - 13 23 04.4  RJ  -   31.0  1.3   16.0  LSR  RADIO [s]  2-1 : 14.6
