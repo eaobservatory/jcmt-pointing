@@ -70,6 +70,7 @@
 *               a limiting brightness for normally [s] sources of 0.2Jy
 * 2003 Jun 09 - 12 sp-line 5-point sources added (suggested by Thomas Lowe)
 *             - 3 sp-line 5-pt sources (WXPsc, oCeti, CIT6) given [c] status also
+* 2003 Jun 20 - VCyg coords consolidated
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -455,7 +456,7 @@ V1302Aql        19 26 48.03  + 11 21 16.7  RJ  +   73.0  1.0   90.0  LSR  RADIO 
 GYAql           19 50 06.35  - 07 36 52.8  RJ  +   34.0  1.08  23.0  LSR  RADIO [s]2-1 24.4 : NRAO 2-1      
 KiCyg           19 50 33.95  + 32 54 51.2  RJ  +   10.0  3.5   21.0  LSR  RADIO [s] 3-2 58.9 4-3 70.2       
 RRAql           19 57 36.03  - 01 53 10.4  RJ  +   28.0  0.5   15.0  LSR  RADIO [s]2-1
-VCyg            20 41 18.30  + 48 08 29.1  RJ  +   14.0  3.9   30.0  LSR  RADIO [s]  3-2 62.9 4-3 71.0       
+VCyg            20 41 18.27  + 48 08 28.8  RJ  +   14.0  2.7   24.0  LSR  RADIO [s]  2-1 : 47.9
 NMLCyg          20 46 25.46  + 40 06 59.6  RJ  +    1.0  2.0   65.0  LSR  RADIO [s] 3-2 85.9 HEM 4-3 96.5 
 NGC7027         21 07 01.593 + 42 14 10.18 RJ  +   26.0  8.5   50.0  LSR  RADIO [s]2-1 192.9 J 219.6(290) 3-2(280) 4-3(238.0)
 SCep            21 35 12.60  + 78 37 28.4  RJ  -   16.0  1.6   63.0  LSR  RADIO [s]2-1 40.9 3-2 50.4/38.3 IRAM 2-1 60
