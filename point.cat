@@ -24,23 +24,15 @@
 *
 *  The catalogue is organized in the following way:
 *
-*      TARGETS OF OPPORTUNITY
 *      CONTINUUM POINTING SOURCES AND STANDARDS
 *          BLAZARS I - most of those in the previous catalog
 *          BLAZARS II - new from the ICRF lists
 *          COMPACT HII regions, AGB stars, PMS stars
 *      SPECTRAL LINE CALIBRATORS
 *      SOURCE LIST FOR SPECTRAL LINE FIVEPOINTS
-*      OBSERVATORY BACKUP PROGRAM
 *
 *---------------------------------------------------------------------------------
 *  Revisions : 
-*
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-*  TARGETS OF OPPORTUNITY
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-ALCOM           12 32 25.68  + 14 20 57.4  RJ    n/a     n/a   n/a   LSR  RADIO                          
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
 * 1996 Jul 09 - original verison (?) (GS)
 * 1996 Nov 24 - Modified holography source position (REH)
@@ -70,6 +62,7 @@ ALCOM           12 32 25.68  + 14 20 57.4  RJ    n/a     n/a   n/a   LSR  RADIO
 * 2002 Aug 20 - names of 0954+658 and 1739+522 correctly installed
 * 2002 Nov 08 - coordinates for VYCMa & oh231.8 consolidated
 * 2002 Dec 26 - Dec coords for o Ceti corrected - previousd update erroneous
+* 2003 Jan 28 - Observatory program targets & Targets-Of-Opportunity removed
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -519,21 +512,6 @@ GL2686          20 59 08.88  + 27 26 41.7  RJ  +    1.0  0.32  48.0  LSR  RADIO 
 GL3068          23 19 12.39  + 17 11 35.4  RJ  -   31.0  6.1   31.0  LSR  RADIO  3-2 49.6 4-3 37.4 
 23304+6147      23 32 44.94  + 62 03 49.6  RJ  -   17.0  0.4   31.0  LSR  RADIO   3-2 6.7 HEM IRAM 2-1 int 25.0
 23321+6545      23 34 22.63  + 66 01 50.4  RJ  -   56.0  0.24  40.0  LSR  RADIO   3-2 6.2 HEM IRAM 2-1 int 28
-*
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-*   OBSERVATORY BAD WEATHER BACKUP; CO and ISOTOPES for all sources (BW = 125 MHz)
-*   except NGC7538IRS1, which is observed at 241.8 GHz LSB and with DAS 500MHz Bandwidth 
-*   DETAILS AND CURRENT STATUS IS FOUND IN THE OBSERVATORY BACKUP FOLDER
-*
-*               RA & DEC                       Vlsr     Tpeak  Vrange   comments
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-HORSEHEAD       05 40 58.765 - 02 27 36.41 RJ  +   10.5 28.0   n/a   LSR  RADIO  PS -800,0 RJ ; peak at (-80",+40")
-N2023mm1        05 41 24.778 - 02 18 09.19 RJ  +   10.5 25.0   n/a   LSR  RADIO                          
-16293E          16 32 28.842 - 24 28 57.60 RJ  +    4.0 11.0   n/a   LSR  RADIO  PS -800,0 RJ
-N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0  9.5   n/a   LSR  RADIO  PS -100,100 ; use cell 10",10" RJ
-*
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
 *
 *           MISCELLANEOUS SOURCES
