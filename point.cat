@@ -1,33 +1,7 @@
 *                              JCMT_CATALOG
 *                              ============
-* point2002.cat : 
+* point2003.cat : 
 *
-* 26 Dec 2002
-*    Dec coords for o Ceti corrected - previousd update erroneous
-* 
-* 08 Nov 2002
-*    coordinates for VYCMa & oh231.8 consolidated
-*                    
-* 20 Aug 2002
-*    names of 0954+658 and 1739+522 correctly installed
-*         
-* 04 Jan 2002
-*    This catalog is different from the previous version in these ways :
-*
-* 1. Several spectral-fivepoint objects were revealed as having
-*    inaccurate coordinates. Previously, SIMBAD coordinates were used.
-*    Size and sense of errors supported adoption of coordinates by 
-*                Loup et al (1993, A&AS 99, 291)
-*    (which formed the basis of the 1950.0 version of this catalog).
-*    Loup show good correlation, for late type stars with HD numbers, 
-*    with the Hipparcos catalog. 
-*    Particular objects have caught the attention of observing staff
-*    in the last couple of months (CIT6, V370Aur, V636Mon, all stars,
-*    note) and in each case the Loup et al (1993) coordinates would
-*    have provided better service. Previous updates for CIT6, IRC-10502,
-*    GL865 superseded without loss of accuracy by Loup's coordinates.
-*
-************************************************************************
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
 *  used in software planes 136 or higher. 
@@ -59,19 +33,8 @@
 *      SOURCE LIST FOR SPECTRAL LINE FIVEPOINTS
 *      OBSERVATORY BACKUP PROGRAM
 *
+*---------------------------------------------------------------------------------
 *  Revisions : 
-*  1996 Jul 09 - GS  -
-*  1996 Nov 24 - REH - Modified holography source position 
-*  1997 Aug 29 - RMP/GHLS - Modified holography position
-*  1999 Nov 03 - imc - updated coords to J2000, see notes
-*  2001 Feb 23 - imc - updated 850um fluxes for 'new' blazars
-*  2001 Mar 12 - imc - add need for 120" chop for DG Tau
-*  2001 Jul 02 - imc - updated 0.85mm fluxes based on last 1.5years of data
-*                       - 76% of original blazars 
-*                       - 51% of new blazars 
-*                       - all but 5 continuum (non-blazar) sources 
-*  2002 Apr 10 - imc - updated HOLO position
-*  2002 May 02 - imc - 2 candidates from EIR added, 1622-2**
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  TARGETS OF OPPORTUNITY
@@ -79,7 +42,36 @@
 ALCOM           12 32 25.68  + 14 20 57.4  RJ    n/a     n/a   n/a   LSR  RADIO                          
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
-* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+* 1996 Jul 09 - original verison (?) (GS)
+* 1996 Nov 24 - Modified holography source position (REH)
+* 1997 Aug 29 - Modified holography position (RMP/GHLS)
+* 1999 Nov 03 - updated coords to J2000, see notes (IMC - until next change)
+* 2001 Feb 23 - updated 850um fluxes for 'new' blazars
+* 2001 Mar 12 - add need for 120" chop for DG Tau
+* 2001 Jul 02 - updated 0.85mm fluxes based on last 1.5years of data, for
+*                - 76% of original blazars 
+*                - 51% of new blazars 
+*                - all but 5 continuum (non-blazar) sources 
+* 2002 Jan 04 - Several spectral-fivepoint objects were revealed as having
+*               inaccurate coordinates. Previously, SIMBAD coordinates were used.
+*               Size and sense of errors supported adoption of coordinates by 
+*               Loup et al (1993, A&AS 99, 291)
+*               (which formed the basis of the 1950.0 version of this catalog).
+*               Loup shows good correlation, for late type stars with HD numbers, 
+*               with the Hipparcos catalog. 
+*               Particular objects have caught the attention of observing staff
+*               in the last couple of months (CIT6, V370Aur, V636Mon, all stars,
+*               note) and in each case the Loup et al (1993) coordinates would
+*               have provided better service. Previous updates for CIT6, IRC-10502,
+*               GL865 superseded without loss of accuracy by Loup's coordinates.
+*
+* 2002 Apr 10 - updated HOLO position
+* 2002 May 02 - 2 candidates from EIR added, 1622-2**
+* 2002 Aug 20 - names of 0954+658 and 1739+522 correctly installed
+* 2002 Nov 08 - coordinates for VYCMa & oh231.8 consolidated
+* 2002 Dec 26 - Dec coords for o Ceti corrected - previousd update erroneous
+*
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
