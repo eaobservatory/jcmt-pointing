@@ -72,6 +72,7 @@
 *             - 3 sp-line 5-pt sources (WXPsc, oCeti, CIT6) given [c] status also
 * 2003 Jun 20 - VCyg coords consolidated
 * 2004 Mar 29 - 5 additional CO:2-1 spectral-line sources added (courtesy TBL)
+* 2004 May 04 - GL5379 removed - position uncertain by 11" (JW)
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -516,7 +517,6 @@ BXCam           05 46 44.10  + 69 58 25.2  RJ  +    0.0  0.54  45.0  LSR  RADIO 
 GL1235          08 10 48.40  - 32 52 03.9  RJ  -   20.3  0.9   42.0  LSR  RADIO [s]2-1 29.0 3-2 37.5 
 CRL4211         15 11 41.89  - 48 20 01.3  RJ  -    3.7  2.5   42.0  LSR  RADIO [s]2-1 72.6 
 IRC+20326       17 31 54.98  + 17 45 19.7  RJ  -    4.0  1.5   34.0  LSR  RADIO [s]2-1 31.3 : OSO 1-0 int 20
-GL5379          17 44 22.62  - 31 55 39.4  RJ  -   20.5  2.8   43.0  LSR  RADIO [s]2-1 31.8  3-2 59.7: 
 GL2155          18 26 05.69  + 23 28 50.3  RJ  +   60.0  1.12  34.0  LSR  RADIO [s]         : OSO 1-0  23.2 
 19454+2920      19 47 24.25  + 29 28 11.8  RJ  +   21.0  0.73  29.0  LSR  RADIO [s]         : IRAM 2-1 int 14.3
 GL2477          19 56 48.26  + 30 43 59.2  RJ  +    5.0  1.7   50.0  LSR  RADIO [s] 3-2 26.6                
