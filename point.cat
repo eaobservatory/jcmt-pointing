@@ -27,6 +27,7 @@
 *      CONTINUUM POINTING SOURCES
 *          BLAZARS I - most of those in the previous catalog
 *          BLAZARS II - new from the ICRF lists
+*          BLAZARS III - bright (>0.3Jy), northern detections from m04bu23 (Ian Browne)
 *          COMPACT HII regions, AGB stars, PMS stars
 *          Spectral-line 5-point sources also bright enough for continuum work
 *      SPECTRAL LINE CALIBRATORS
@@ -74,6 +75,7 @@
 * 2004 Mar 29 - 5 additional CO:2-1 spectral-line sources added (courtesy TBL)
 * 2004 May 04 - GL5379 removed - position uncertain by 11" (JW)
 * 2004 Dec 13 - updated 850um fluxes
+* 2004 Dec 14 - addition of bright (>0.3Jy) detections by m04bu23 (Ian Browne)
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -309,6 +311,31 @@ CygA            19 57 44.6   + 40 35 45.9  RB    n/a     0.7   n/a   LSR  RADIO 
 2229+695        22 30 36.470 + 69 46 28.08 RJ    n/a     0.1   n/a   LSR  RADIO [c] 0.1 -     Jy (2001 Jul)
 2234+282        22 36 22.471 + 28 28 57.41 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.5 -     Jy (2004 Aug)
 2344+092        23 46 36.839 + 09 30 45.51 RJ    n/a     0.2   n/a   LSR  RADIO [c]
+*
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+* BLAZARS III  - coordinates from ICRF (Ma et al AJ 116, 516)
+*SOURCE         RA            DEC          EQUI  VEL    FLUX  RANGE  FRAME DEF   Comments
+*                                          NOX    -    0.85mm   -                observed range at 850um
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+0010+405        00 13 31.13  + 40 51 37.14 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0110+495        01 13 27.01  + 49 48 24.04 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0218+357        02 21 05.47  + 35 56 13.70 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Oct)
+0227+403        02 30 45.70  + 40 32 53.08 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0309+411        03 13 01.96  + 41 20 01.19 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.5 -     Jy (2004 Aug)
+0444+634        04 49 23.31  + 63 32 09.43 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.5 -     Jy (2004 Aug)
+0707+476        07 10 46.10  + 47 32 11.14 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0714+457        07 17 51.85  + 45 38 03.25 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0749+540        07 53 01.38  + 53 52 59.64 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+0804+499        08 08 39.67  + 49 50 36.53 RJ    n/a     0.4   n/a   LSR  RADIO [c] 0.4 -     Jy (2004 Aug)
+1030+611        10 33 51.43  + 60 51 07.33 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Sep)
+1053+704        10 56 53.62  + 70 11 45.92 RJ    n/a     0.4   n/a   LSR  RADIO [c] 0.4 -     Jy (2004 Dec)
+1636+473        16 37 45.13  + 47 17 33.84 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+1700+685        17 00 09.29  + 68 30 06.96 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+1732+389        17 34 20.58  + 38 57 51.44 RJ    n/a     0.4   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+1849+670        18 49 16.07  + 67 05 41.68 RJ    n/a     0.4   n/a   LSR  RADIO [c] 0.4 -     Jy (2004 Aug)
+1926+611        19 27 30.44  + 61 17 32.88 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+2023+760        20 22 35.58  + 76 11 26.18 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+2351+456        23 54 21.68  + 45 53 04.24 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
 *
 * - -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM SOURCES : Compact HII regions, ABG and PMS - stars
