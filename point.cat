@@ -41,6 +41,7 @@
 *                       - 76% of original blazars 
 *                       - 51% of new blazars 
 *                       - all but 5 continuum (non-blazar) sources 
+*  2002 Apr 10 - imc - updated HOLO position
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  TARGETS OF OPPORTUNITY
@@ -522,8 +523,6 @@ N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0  9.5   n/a   LSR  RADIO 
 *           MISCELLANEOUS SOURCES
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-DOG             92 47 40.0   + 08 39 40.00 AZ    n/a     n/a   n/a   LSR  RADIO  Position for Holography
-OLD_HOLO        92 43 00.0   + 08 41 00.00 AZ    n/a     n/a   n/a   LSR  RADIO  Position for Holography
-HOLO            92 50 20.0   + 08 35 35.00 AZ    n/a     n/a   n/a   LSR  RADIO  Position for holography
+HOLO            92 55 08.0   + 08 35 07.00 AZ    n/a     n/a   n/a   LSR  RADIO  Position for holography
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
