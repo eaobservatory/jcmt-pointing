@@ -28,6 +28,7 @@
 *          BLAZARS I - most of those in the previous catalog
 *          BLAZARS II - new from the ICRF lists
 *          COMPACT HII regions, AGB stars, PMS stars
+*          Spectral-line 5-point sources also bright enough for continuum work
 *      SPECTRAL LINE CALIBRATORS
 *      SPECTRAL LINE FIVEPOINT SOURCES
 *
@@ -68,6 +69,7 @@
 *               pointing sources. [cs] is for those suitable for both, with
 *               a limiting brightness for normally [s] sources of 0.2Jy
 * 2003 Jun 09 - 12 sp-line 5-point sources added (suggested by Thomas Lowe)
+*             - 3 sp-line 5-pt sources (WXPsc, oCeti, CIT6) given [c] status also
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -351,6 +353,16 @@ N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0 33.0   n/a   LSR  RADIO 
 N7538IRS9       23 14 01.682 + 61 27 19.96 RJ  -   58.0  6.5   n/a   LSR  RADIO [c] c                        
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+*
+*   Sources for use in continuum mode originally intended only
+*   for use in spectral-line 5-pointing mode. They have proven sufficiently
+*   bright at 850um to qualify as 'continuum' sources.
+*              
+WXPsc           01 06 25.96  + 12 35 53.5  RJ  +    8.5  0.2   35.0  LSR  RADIO [c]2-1 41.0 J3-2 51.2 4-3 23.2 
+oCeti           02 19 20.80  - 02 58 40.7  RJ  +   46.5  0.5   28.0  LSR  RADIO [c]2-1 34.6 J3-2 48.2 4-3 46.2 J2005
+CIT6            10 16 02.27  + 30 34 18.6  RJ  -    1.9  0.7   45.0  LSR  RADIO [c]2-1 111.3 3-2 194.9 4-3 1
+*
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
 *   SPECTRAL LINE STANDARDS
 *  
