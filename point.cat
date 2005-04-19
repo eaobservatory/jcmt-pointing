@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point200503.cat : 
+* point200504.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -79,6 +79,7 @@
 * 2004 Dec 19 - o Ceti coords updated to 2005.0 for proper motion
 * 2005 Jan 28 - routine update of blazar brightnesses
 * 2005 Mar 30 - routine update of blazar brightnesses
+* 2005 Apr 19 - add BVP1 (courtesy V.Barnard)
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -373,6 +374,7 @@ TWHya           11 01 51.91  - 34 42 17.0  RJ  +    0.0  0.8   n/a   LSR  RADIO 
 16293-2422      16 32 22.909 - 24 28 35.60 RJ  +    4.0 16.3   n/a   LSR  RADIO [c] c Secondary flux calibrator
 G343.0          16 58 17.136 - 42 52 06.61 RJ  -   31.0 35.0   n/a   LSR  RADIO [c] c 
 NGC6334I        17 20 53.445 - 35 47 01.67 RJ  +    7.0 60.0   n/a   LSR  RADIO [c] c 
+BVP1            17 43 10.32  - 29 51 43.5  RJ  -   20.0  1.5   n/a   LSR  RADIO [c] c 
 G5.89           18 00 30.376 - 24 04 00.48 RJ  +   10.0 48.0   n/a   LSR  RADIO [c] c 
 M8E             18 04 52.957 - 24 26 39.36 RJ  +   11.0  2.8   n/a   LSR  RADIO [c] c       
 G10.62          18 10 28.661 - 19 55 49.76 RJ  -    3.5 50.0   n/a   LSR  RADIO [c] c 
