@@ -81,6 +81,7 @@
 * 2005 Mar 30 - routine update of blazar brightnesses
 * 2005 Apr 19 - add BVP1 (courtesy V.Barnard)
 * 2005 Jul 01 - rationalization of velocities for L1551-IRS1, OH231.8, NGC6334I 
+* 2005 Jul 12 - update position of w3(oh) to that by ICRS
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -358,7 +359,7 @@ CygA            19 57 44.6   + 40 35 45.9  RB    n/a     0.7   n/a   LSR  RADIO 
 *SOURCE         RA            DEC          EQUI  VEL     FLUX  RANGE  FRAME DEF   Comments
 *                                          NOX    -      0.85mm   -                c = coco  s = simbad
 * - -- -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-W3(OH)          02 27 03.831 + 61 52 24.77 RJ  -   45.0 35.0   n/a   LSR  RADIO [c] c 
+W3(OH)          02 27 04.1   + 61 52 22.   RJ  -   45.0 35.0   n/a   LSR  RADIO [c] c 
 GL490           03 27 38.842 + 58 47 00.51 RJ  -   12.5  5.0   n/a   LSR  RADIO [c] c 
 TTau            04 21 59.43  + 19 32 06.4  RJ  +    7.5  1.3   n/a   LSR  RADIO [c] s T Tauri star            
 DGTau           04 27 04.7   + 26 06 17.   RJ  +    5.0  0.9   n/a   LSR  RADIO [c] s T Tauri star; use 120" chop            
@@ -412,7 +413,7 @@ CIT6            10 16 02.27  + 30 34 18.6  RJ  -    1.9  0.7   45.0  LSR  RADIO 
 *   2001 10 19 - offsets updated for crl618, omc1, oh231.8, w75n, ngc7027
 *                                                                                PS offset is for CO and isotopes
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-W3(OH)          02 27 03.831 + 61 52 24.77 RJ  -   45.0 12.8   n/a   LSR  RADIO [s] PS -600,0 RJ
+W3(OH)          02 27 04.1   + 61 52 22.   RJ  -   45.0 35.0   n/a   LSR  RADIO [c] c 
 L1551-IRS5      04 31 34.140 + 18 08 05.13 RJ  +    6.0  2.4   n/a   LSR  RADIO [s] PS                ; seco
 CRL618          04 42 53.597 + 36 06 53.65 RJ  -   21.7  3.2   90.0  LSR  RADIO [s] BMSW 180" AZ            
 OMC1            05 35 14.373 - 05 22 32.35 RJ  +    10.0  72.  n/a   LSR  RADIO [s] PS 0, 2100 RJ
