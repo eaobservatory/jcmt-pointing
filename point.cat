@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point200602.cat : 
+* point200702.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -84,6 +84,7 @@
 * 2005 Jul 12 - W3(OH) : position updated to that by ICRS
 * 2005 Sep 12 - offset positions for W3(OH) & L1551-IRS5 corrected
 * 2006 Feb 13 - include 1153+495 (thank you J.Hoge)
+* 2007 Mar 02 - add possible maser source IRC+20326M
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -559,6 +560,7 @@ TXCam           05 00 50.39  + 56 10 52.6  RJ  +    9.2  2.9   50.0  LSR  RADIO 
 BXCam           05 46 44.10  + 69 58 25.2  RJ  +    0.0  0.54  45.0  LSR  RADIO [s]         : OSO 1-0 15.4  
 GL1235          08 10 48.40  - 32 52 03.9  RJ  -   20.3  0.9   42.0  LSR  RADIO [s]2-1 29.0 3-2 37.5 
 CRL4211         15 11 41.89  - 48 20 01.3  RJ  -    3.7  2.5   42.0  LSR  RADIO [s]2-1 72.6 
+IRC+20326M      17 31 47.38  + 17 45 06.5  RJ  -    4.0  1.5   34.0  LSR  RADIO [s]2-1 31.3 : OSO 1-0 int 20
 IRC+20326       17 31 54.98  + 17 45 19.7  RJ  -    4.0  1.5   34.0  LSR  RADIO [s]2-1 31.3 : OSO 1-0 int 20
 GL2155          18 26 05.69  + 23 28 50.3  RJ  +   60.0  1.12  34.0  LSR  RADIO [s]         : OSO 1-0  23.2 
 19454+2920      19 47 24.25  + 29 28 11.8  RJ  +   21.0  0.73  29.0  LSR  RADIO [s]         : IRAM 2-1 int 14.3
