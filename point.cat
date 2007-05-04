@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point200702.cat : 
+* point200605.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -85,6 +85,7 @@
 * 2005 Sep 12 - offset positions for W3(OH) & L1551-IRS5 corrected
 * 2006 Feb 13 - include 1153+495 (thank you J.Hoge)
 * 2007 Mar 02 - add possible maser source IRC+20326M
+* 2007 May 04 - add comments for G45.1 = G45.07+0.13 
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -385,7 +386,7 @@ G5.89           18 00 30.376 - 24 04 00.48 RJ  +   10.0 48.0   n/a   LSR  RADIO 
 M8E             18 04 52.957 - 24 26 39.36 RJ  +   11.0  2.8   n/a   LSR  RADIO [c] c       
 G10.62          18 10 28.661 - 19 55 49.76 RJ  -    3.5 50.0   n/a   LSR  RADIO [c] c 
 G34.3           18 53 18.569 + 01 14 58.26 RJ  +   58.1 70.0   n/a   LSR  RADIO [c] c 
-G45.1           19 13 22.079 + 10 50 53.42 RJ  +   48.0 11.0   n/a   LSR  RADIO [c] c 
+G45.1           19 13 22.079 + 10 50 53.42 RJ  +   48.0 11.0   n/a   LSR  RADIO [c] c G45.07+0.13 needs chop EW >60". ApJ 478, 283
 K3-50           20 01 45.689 + 33 32 43.52 RJ  -   23.7 20.0   n/a   LSR  RADIO [c] c 
 ON-1            20 10 09.146 + 31 31 37.67 RJ  +   11.8  4.7   n/a   LSR  RADIO [c] c 
 GL2591          20 29 24.719 + 40 11 18.87 RJ  -    5.8  3.0   n/a   LSR  RADIO [c] c                        
