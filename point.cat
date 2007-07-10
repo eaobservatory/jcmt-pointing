@@ -89,6 +89,7 @@
 * 2007 Jul 09 - update Loup sources for Hipparcos positions
 *             - use p.m.s appropriate for 2010
 *             - delete IRC+20326M (spurious); add NGC6563; correct VXSgr
+* 2007 Jul 10 - add 3 stars from m07ai05
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
@@ -603,6 +604,12 @@ TDra            17 56 23.289 + 58 13 05.61 RJ  -   14.0  0.8   28.0  LSR  RADIO 
 UCyg            20 19 36.595 + 47 53 39.09 RJ  +   25.0  0.3   26.0  LSR  RADIO [s]  2-1 :  7.2
 RVCyg           21 43 16.328 + 38 01 02.88 RJ  +   15.0  0.5   30.0  LSR  RADIO [s]  2-1 : 10.1
 TXPsc           23 46 23.494 + 03 29 12.27 RJ  +   13.0  0.7   20.0  LSR  RADIO [s]  2-1 : 6.2,  3-2 also
+*
+* and 3 candidates observed at CO:3-2 by S.Ramstedt (m07ai05)
+*
+RCyg            19 36 49.381 + 50 11 59.46 RJ  -   17.0  1.0   30.0  LSR  RADIO [s]  3-2 : 15.0 
+SLyr            19 13 11.79  + 26 00 28.3  RJ  +   51.0  0.3   40.0  LSR  RADIO [s]  3-2 :  6.0
+WYCas           23 58 01.30  + 56 29 13.5  RJ  +    8.0  0.4   40.0  LSR  RADIO [s]  3-2 :  8.0
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *           MISCELLANEOUS SOURCES
