@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point200707.cat : 
+* point20070830.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -93,6 +93,8 @@
 * 2007 Jul 17 - Notes for sp.line pointing sources to include 
 *               Loup class/quality and Hipparcos update if applicable
 *
+* 2007 Aug 30 - Add bright Loup sources somehow not already in this catalog:
+*             - NGC6072, & IRC+10401 to 'Loup-2', and V384Cep & IILup to L-3
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -537,6 +539,7 @@ HD56126         07 16 10.257 + 09 59 48.03 RJ  +   73.0  2.0   24.0  LSR  RADIO 
 GL5254          09 13 54.09  - 24 51 21.1  RJ  +    0.1  3.5   32.0  LSR  RADIO [s] L2   2-1 55.3 3-2 49.6
 VHya            10 51 37.245 - 21 15 00.29 RJ  -   15.6  5.0   52.0  LSR  RADIO [s] L2/H 2-1 73.7 3-2 97.8        
 XHer            16 02 39.108 + 47 14 25.92 RJ  -   73.0  1.3   23.0  LSR  RADIO [s] L2/H 2-1 12.0                 
+NGC6072         16 12 58.079 - 36 13 46.06 RJ  +    7.0  1.8   24.0  LSR  RADIO [s] L2   2-1 28.9
 GL1922          17 07 58.24  - 24 44 31.1  RJ  -    3.0  1.73  40.0  LSR  RADIO [s] L2   2-1 45.0 3-2 56.3        
 GL2135          18 22 34.50  - 27 06 30.2  RJ  +   48.0  1.31  45.0  LSR  RADIO [s] L2   2-1 45.8 3-2 59.7
 GL2143          18 24 31.84  - 16 16 04.2  RJ  -   27.0  0.9   34.0  LSR  RADIO [s] L2   2-1 IRAM 19.4 
@@ -546,6 +549,7 @@ IRC+00365       18 42 24.68  - 02 17 25.2  RJ  +    3.0  0.7   73.0  LSR  RADIO 
 RSct            18 47 28.921 - 05 42 18.84 RJ  +   56.0  0.8   10.0  LSR  RADIO [s] L2/H 2-1 4.2
 V1362Aql        18 48 41.91  - 02 50 28.3  RJ  +  101.0  1.1   35.0  LSR  RADIO [s] L2
 V1366Aql        18 58 30.02  + 06 42 57.7  RJ  +   21.0  0.6   31.0  LSR  RADIO [s] L2
+IRC+10401       19 03 18.28  + 07 30 47.2  RL  +    7.0  0.3   17.0  LSR  RADIO [s] L2         
 GL2316          19 05 22.69  + 08 13 05.0  RJ  +    2.0  1.0   34.0  LSR  RADIO [s] L2   2-1 IRAM 23.3 
 WAql            19 15 23.442 - 07 02 49.84 RJ  -   25.0  0.8   42.0  LSR  RADIO [s] L2   2-1 CSO  22
 IRC-10502       19 20 17.96  - 08 02 10.6  RJ  +   21.0  0.67  57.0  LSR  RADIO [s] L2   2-1 27.9  3-2 40.0     
@@ -569,6 +573,7 @@ TXCam           05 00 50.39  + 56 10 52.6  RJ  +    9.2  2.9   50.0  LSR  RADIO 
 BXCam           05 46 44.10  + 69 58 25.2  RJ  +    0.0  0.54  45.0  LSR  RADIO [s] L3   1-0 OSO 15.4  
 GL1235          08 10 48.40  - 32 52 03.9  RJ  -   20.3  0.9   42.0  LSR  RADIO [s] L3+  2-1 29.0 3-2 37.5 
 CRL4211         15 11 41.89  - 48 20 01.3  RJ  -    3.7  2.5   42.0  LSR  RADIO [s] L3   2-1 72.6 
+IILup           15 23 04.91  - 51 25 59.0  RJ  -   15.0  1.9   23.0  LSR  RADIO [s] L3   2-1 58.5
 IRC+20326       17 31 54.98  + 17 45 19.7  RJ  -    4.0  1.5   34.0  LSR  RADIO [s] L3   2-1 31.3  1-0 OSO 20
 GL2155          18 26 05.84  + 23 28 46.7  RJ  +   60.0  1.12  34.0  LSR  RADIO [s] L3+  1-0 OSO 23.2 
 19454+2920      19 47 24.25  + 29 28 11.8  RJ  +   21.0  0.73  29.0  LSR  RADIO [s] L3   2-1 IRAM 14.3
@@ -580,6 +585,7 @@ GL2686          20 59 08.88  + 27 26 41.7  RJ  +    1.0  0.32  48.0  LSR  RADIO 
 21282+5050      21 29 58.42  + 51 03 59.8  RJ  +   18.0  4.2   37.0  LSR  RADIO [s] L3   3-2 74 2-1 IRAM 279 
 21318+5631      21 33 22.98  + 56 44 35.0  RJ  +    0.0  0.95  37.0  LSR  RADIO [s] L3   3-2 19.7                
 21554+6204      21 56 58.18  + 62 18 43.6  RJ  -   17.0  0.75  37.0  LSR  RADIO [s] L3   2-1 10.9
+V384Cep         22 25 54.81  + 60 20 42.4  RJ  -    6.0  0.2   34.0  LSR  RADIO [s] L3
 GL3068          23 19 12.39  + 17 11 35.4  RJ  -   31.0  6.1   31.0  LSR  RADIO [s] L3   3-2 49.6 4-3 37.4 
 23304+6147      23 32 44.94  + 62 03 49.6  RJ  -   17.0  0.4   31.0  LSR  RADIO [s] L3   3-2 6.7 2-1 IRAM 25.0
 23321+6545      23 34 22.63  + 66 01 50.4  RJ  -   56.0  0.24  40.0  LSR  RADIO [s] L3   3-2 6.2 2-1 IRAM 28
@@ -600,7 +606,7 @@ WCMa            07 08 03.432 - 11 55 23.77 RJ  +    0.0  0.5   25.0  LSR  RADIO 
 XCnc            08 55 22.879 + 17 13 52.65 RJ  -   13.0  0.4   17.0  LSR  RADIO [s] Hip 2-1 4.2
 YHya            09 51 03.723 - 23 01 02.39 RJ  -    7.0  0.4   20.0  LSR  RADIO [s] Hip 2-1 5.4
 UHya            10 37 33.302 - 13 23 04.73 RJ  -   31.0  1.3   16.0  LSR  RADIO [s] Hip 2-1 14.6
-YCVn            12 45 07.825 + 45 26 25.05 RJ  +   21.0  0.9   17.0  LSR  RADIO [s] Hip 2-1 10.7
+YCVn            12 45 07.827 + 45 26 24.92 RJ  +   21.0  0.9   17.0  LSR  RADIO [s] Hip 2-1 10.7
 RYDra           12 56 25.931 + 65 59 39.71 RJ  -    5.0  0.5   20.0  LSR  RADIO [s] Hip 2-1  7.1
 VCrB            15 49 31.317 + 39 34 17.74 RJ  -  100.0  0.5   19.0  LSR  RADIO [s] Hip 2-1 5.4
 TDra            17 56 23.289 + 58 13 05.61 RJ  -   14.0  0.8   28.0  LSR  RADIO [s] Hip 2-1 16.6
