@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point20070830.cat : 
+* point20080128.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -93,8 +93,10 @@
 * 2007 Jul 17 - Notes for sp.line pointing sources to include 
 *               Loup class/quality and Hipparcos update if applicable
 *
-* 2007 Aug 30 - Add bright Loup sources somehow not already in this catalog:
+* 2007 Aug 30 - Add bright (IntInt>20K.km/s) Loup sources somehow not already in this catalog:
 *             - NGC6072, & IRC+10401 to 'Loup-2', and V384Cep & IILup to L-3
+* 2008 Jan 28 - clarify Int.Int.s for GL230
+
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -477,7 +479,7 @@ N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0  9.9   n/a   LSR  RADIO 
 TCas            00 23 14.297 + 55 47 33.11 RJ  -    7.0  1.0   22.0  LSR  RADIO [s] L1/H 3-2 12.8  4-3 int 5.5   
 WXPsc           01 06 25.98  + 12 35 53.0  RJ  +    8.5  1.4   35.0  LSR  RADIO [s] L1   2-1 41.0 J 3-2 51.2 4-3 23.2 
 RScl            01 26 58.087 - 32 32 35.79 RJ  -   18.4  1.5   37.0  LSR  RADIO [s] L1/H 2-1 42.3 J 3-2 48.2      
-GL230           01 33 51.21  + 62 26 53.5  RJ  -   54.0  0.9   22.0  LSR  RADIO [s] L1   2-1 IRAM 16.3  
+GL230           01 33 51.21  + 62 26 53.5  RJ  -   54.0  0.9   22.0  LSR  RADIO [s] L1   2-1 6  3-2  3  2-1 IRAM 16.3  
 oCeti           02 19 20.905 - 02 58 41.69 RJ  +   46.5  6.8   28.0  LSR  RADIO [s] L1/H 2-1 34.6 J 3-2 48.2 4-3 46.2 J2005
 UCam            03 41 48.173 + 62 38 54.33 RJ  +    7.1  0.55  64.0  LSR  RADIO [s] L1/H 2-1 20.3 J              
 NMLTau          03 53 28.84  + 11 24 22.6  RJ  +   35.1  1.6   43.0  LSR  RADIO [s] L1   2-1 49.1 4-3 92
