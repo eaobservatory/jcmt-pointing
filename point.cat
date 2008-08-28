@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point20080128.cat : 
+* point20080828.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -96,7 +96,7 @@
 * 2007 Aug 30 - Add bright (IntInt>20K.km/s) Loup sources somehow not already in this catalog:
 *             - NGC6072, & IRC+10401 to 'Loup-2', and V384Cep & IILup to L-3
 * 2008 Jan 28 - clarify Int.Int.s for GL230
-
+* 2008 Aug 28 - remove GL230, V1365Aql, V437Sct following analysis by J.Wouterloot
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -479,7 +479,6 @@ N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0  9.9   n/a   LSR  RADIO 
 TCas            00 23 14.297 + 55 47 33.11 RJ  -    7.0  1.0   22.0  LSR  RADIO [s] L1/H 3-2 12.8  4-3 int 5.5   
 WXPsc           01 06 25.98  + 12 35 53.0  RJ  +    8.5  1.4   35.0  LSR  RADIO [s] L1   2-1 41.0 J 3-2 51.2 4-3 23.2 
 RScl            01 26 58.087 - 32 32 35.79 RJ  -   18.4  1.5   37.0  LSR  RADIO [s] L1/H 2-1 42.3 J 3-2 48.2      
-GL230           01 33 51.21  + 62 26 53.5  RJ  -   54.0  0.9   22.0  LSR  RADIO [s] L1   2-1 6  3-2  3  2-1 IRAM 16.3  
 oCeti           02 19 20.905 - 02 58 41.69 RJ  +   46.5  6.8   28.0  LSR  RADIO [s] L1/H 2-1 34.6 J 3-2 48.2 4-3 46.2 J2005
 UCam            03 41 48.173 + 62 38 54.33 RJ  +    7.1  0.55  64.0  LSR  RADIO [s] L1/H 2-1 20.3 J              
 NMLTau          03 53 28.84  + 11 24 22.6  RJ  +   35.1  1.6   43.0  LSR  RADIO [s] L1   2-1 49.1 4-3 92
@@ -505,9 +504,7 @@ V814Her         17 44 55.467 + 50 02 39.36 RJ  -   35.0  0.4   25.0  LSR  RADIO 
 VXSgr           18 08 04.051 - 22 13 26.66 RJ  +    6.0  0.4   60.0  LSR  RADIO [s] L1/H
 NGC6563         18 12 02.753 - 33 52 07.14 RJ  -   31.0  0.4   60.0  LSR  RADIO [s] L1 
 OH17.7-2        18 30 30.64  - 14 28 57.0  RJ  +   62.0  0.3   25.0  LSR  RADIO [s] L1   3-2 5.0  2-1 IRAM 19.4
-V437Sct         18 37 32.46  - 05 23 59.4  RJ  +   29.0  1.41  23.0  LSR  RADIO [s] L1   3-2 13.9                
 V1111Oph        18 37 19.31  + 10 25 42.4  RJ  -   30.0  0.8   40.0  LSR  RADIO [s] L1   2-1 23.4  1-0 OSO 29.4  
-V1365Aql        18 52 22.19  - 00 14 13.9  RJ  +   63.0  1.4   28.0  LSR  RADIO [s] L1   2-1 11.5  2-1 IRAM 14.0,
 RAql            19 06 22.256 + 08 13 47.34 RJ  +   46.0  1.1   20.0  LSR  RADIO [s] L1/H 2-1 15.5  3-2 CSO  45 4-3 36.9
 HD179821        19 13 58.610 + 00 07 31.89 RJ  +  100.0  1.1   76.0  LSR  RADIO [s] L1/H 3-2 57.5   
 GL2374          19 21 36.52  + 09 27 56.5  RJ  -   72.0  1.4   33.0  LSR  RADIO [s] L1   2-1 IRAM 2
