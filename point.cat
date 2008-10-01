@@ -1,6 +1,6 @@
 *                              JCMT_CATALOG
 *                              ============
-* point20080828.cat : 
+* point20081001.cat : 
 *
 *
 *  This catalogue is the new unified JCMT source catalogue. It can only be
@@ -98,6 +98,7 @@
 * 2008 Jan 28 - clarify Int.Int.s for GL230
 * 2008 Aug 28 - remove GL230, V1365Aql, V437Sct following analysis by J.Wouterloot
 * 2008 Sep 09 - change s-pectral l-ine notation from [s] to [l]
+* 2008 Oct 01 - remove GL2374 - duplicate of OH44.1
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -508,7 +509,6 @@ OH17.7-2        18 30 30.64  - 14 28 57.0  RJ  +   62.0  0.3   25.0  LSR  RADIO 
 V1111Oph        18 37 19.31  + 10 25 42.4  RJ  -   30.0  0.8   40.0  LSR  RADIO [l] L1   2-1 23.4  1-0 OSO 29.4  
 RAql            19 06 22.256 + 08 13 47.34 RJ  +   46.0  1.1   20.0  LSR  RADIO [l] L1/H 2-1 15.5  3-2 CSO  45 4-3 36.9
 HD179821        19 13 58.610 + 00 07 31.89 RJ  +  100.0  1.1   76.0  LSR  RADIO [l] L1/H 3-2 57.5   
-GL2374          19 21 36.52  + 09 27 56.5  RJ  -   72.0  1.4   33.0  LSR  RADIO [l] L1   2-1 IRAM 2
 V1302Aql        19 26 48.03  + 11 21 16.7  RJ  +   73.0  1.0   90.0  LSR  RADIO [l] L1   2-1 57.0 3-2 114.7 4-3 101.5 
 GYAql           19 50 06.334 - 07 36 52.30 RJ  +   34.0  1.08  23.0  LSR  RADIO [l] L1/H 2-1 NRAO 24.4       
 KiCyg           19 50 33.903 + 32 54 50.23 RJ  +   10.0  3.5   21.0  LSR  RADIO [l] L1/H 3-2 58.9 4-3 70.2       
