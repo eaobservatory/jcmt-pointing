@@ -100,6 +100,7 @@
 * 2009 May 30 - update positions of some spectral line sources to improved 2mass positions from II/246 catalog
 *             - vl362Aql removed
 * 2009 Jul 08 - oCeti coords brought into agreement. 
+* 2009 Aug 03 - NGC6072 removed
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -544,7 +545,6 @@ HD56126         07 16 10.257 + 09 59 48.03 RJ  +   73.0  2.0   24.0  LSR  RADIO 
 GL5254          09 13 53.95  - 24 51 25.2  RJ  +    0.1  3.5   32.0  LSR  RADIO [l] L2/2M   2-1 55.3 3-2 49.6
 VHya            10 51 37.245 - 21 15 00.29 RJ  -   15.6  5.0   52.0  LSR  RADIO [l] L2/H 2-1 73.7 3-2 97.8        
 XHer            16 02 39.108 + 47 14 25.92 RJ  -   73.0  1.3   23.0  LSR  RADIO [l] L2/H 2-1 12.0                 
-NGC6072         16 12 58.079 - 36 13 46.06 RJ  +    7.0  1.8   24.0  LSR  RADIO [l] L2   2-1 28.9
 GL1922          17 07 58.11  - 24 44 31.2  RJ  -    3.0  1.73  40.0  LSR  RADIO [l] L2/2M   2-1 45.0 3-2 56.3        
 GL2135          18 22 34.68  - 27 06 29.4  RJ  +   48.0  1.31  45.0  LSR  RADIO [l] L2/2M   2-1 45.8 3-2 59.7
 GL2143          18 24 31.81  - 16 16 01.5  RJ  -   27.0  0.9   34.0  LSR  RADIO [l] L2/2M   2-1 IRAM 19.4 
