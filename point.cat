@@ -101,6 +101,7 @@
 *             - vl362Aql removed
 * 2009 Jul 08 - oCeti coords brought into agreement. 
 * 2009 Aug 03 - NGC6072 removed
+* 2009 Aug 26 - NGC6563 and NGC6302 removed
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -507,10 +508,8 @@ RTVir           13 02 38.007 + 05 11 08.20 RJ  +   18.0  0.7   18.0  LSR  RADIO 
 WHya            13 49 01.961 - 28 22 04.08 RJ  +   41.3  0.7   20.0  LSR  RADIO [l] L1/H 2-1 10.9 3-2 29.0 4-3 21.
 RXBoo           14 24 11.643 + 25 42 12.90 RJ  +    1.1  1.4   22.0  LSR  RADIO [l] L1/H 2-1 19.3 3-2 32.3 4-3 14.9
 SCrB            15 21 23.950 + 31 22 02.46 RJ  +    2.0  0.6   18.0  LSR  RADIO [l] L1/H 3-2 5.6 
-NGC6302         17 13 44.211 - 37 06 15.94 RJ  -   40.0  2.6   52.0  LSR  RADIO [l] L1+  2-1 73.0 2-1 NRAO 19.9
 V814Her         17 44 55.467 + 50 02 39.36 RJ  -   35.0  0.4   25.0  LSR  RADIO [l] L1/H 2-1 5.9  2-1 IRAM 36.1 
 VXSgr           18 08 04.051 - 22 13 26.66 RJ  +    6.0  0.4   60.0  LSR  RADIO [l] L1/H
-NGC6563         18 12 02.753 - 33 52 07.14 RJ  -   31.0  0.4   60.0  LSR  RADIO [l] L1 
 OH17.7-2        18 30 30.64  - 14 28 57.0  RJ  +   62.0  0.3   25.0  LSR  RADIO [l] L1   3-2 5.0  2-1 IRAM 19.4
 V1111Oph        18 37 19.26  + 10 25 42.2  RJ  -   30.0  0.8   40.0  LSR  RADIO [l] L1/2M   2-1 23.4  1-0 OSO 29.4  
 RAql            19 06 22.256 + 08 13 47.34 RJ  +   46.0  1.1   20.0  LSR  RADIO [l] L1/H 2-1 15.5  3-2 CSO  45 4-3 36.9
