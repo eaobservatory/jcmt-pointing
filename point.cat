@@ -103,6 +103,7 @@
 * 2009 Aug 03 - NGC6072 removed
 * 2009 Aug 26 - NGC6563 and NGC6302 removed
 * 2009 Oct 05 - Revised coords for 3c111 and MWC349A
+* 2009 Oct 05 - Added sources from SMA catalog : 0102+584, 0510+180, 2025+337
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -179,7 +180,7 @@ OJ287           08 54 48.875 + 20 06 30.64 RJ    n/a     4.0   n/a   LSR  RADIO 
 1213-172        12 15 46.752 - 17 31 45.40 RJ    n/a     0.2   n/a   LSR  RADIO [c] 0.2 - 0.3 Jy (2001 Jul) 
 3C273           12 29 06.700 + 02 03 08.60 RJ    n/a     2.1   n/a   LSR  RADIO [c] 2.1 - 4.2 Jy (2005 Mar)
 VirgoA          12 30 49.423 + 12 23 28.04 RJ    n/a     1.9   n/a   LSR  RADIO [c] 1.8 - 1.9 Jy (2004 Jan-Dec)
-3C279           12 56 11.167 - 05 47 21.52 RJ    n/a     3.4   n/a   LSR  RADIO [c] 3.4 - 7.6 Jy (2005 Mar)
+3C279           12 56 11.167 - 05 47 21.52 RJ    n/a    13.5   n/a   LSR  RADIO [c] SMA flux - Dec 2011
 1308+326        13 10 28.664 + 32 20 43.78 RJ    n/a     0.5   n/a   LSR  RADIO [c] 1.3 - 0.4 Jy (2005 Jan)
 1313-333        13 16 07.986 - 33 38 59.17 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.5 -     Jy (2004 Feb) 
 1334-127        13 37 39.783 - 12 57 24.69 RJ    n/a     2.4   n/a   LSR  RADIO [c] 3.8 - 2.4 Jy (2004 Sep-Dec)
@@ -225,7 +226,8 @@ BLLAC           22 02 43.291 + 42 16 39.98 RJ    n/a     4.4   n/a   LSR  RADIO 
 2227-088        22 29 40.084 - 08 32 54.44 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.5 -     Jy (2004 Aug) 
 2230+114        22 32 36.409 + 11 43 50.90 RJ    n/a     3.3   n/a   LSR  RADIO [c] 3.5 - 3.3 Jy (2004 Dec) 
 2243-123        22 46 18.232 - 12 06 51.28 RJ    n/a     0.5   n/a   LSR  RADIO [c] 0.4 - 0.5 Jy (2001 Jul) 
-2251+158        22 53 57.748 + 16 08 53.56 RJ    n/a     7.0   n/a   LSR  RADIO [c] 3.4 - 7.0 Jy (2004 Sep-Dec)
+3C454.3         22 53 57.748 + 16 08 53.56 RJ    n/a     2.0     n/a LSR  RADIO [c] SMA flux - Oct 2011  
+2251+158        22 53 57.748 + 16 08 53.56 RJ    n/a     2.0   n/a   LSR  RADIO [c] SMA flux - Oct 2011  
 2255-282        22 58 05.963 - 27 58 21.26 RJ    n/a     0.7   n/a   LSR  RADIO [c] 1.0 - 0.7 Jy (2004 Nov) 
 2318+049        23 20 44.857 + 05 13 49.95 RJ    n/a     0.1   n/a   LSR  RADIO [c] 0.1 - 0.2 Jy (2005 Jan) 
 2345-167        23 48 02.609 - 16 31 12.02 RJ    n/a     0.5   n/a   LSR  RADIO [c]                     
@@ -363,6 +365,16 @@ CygA            19 57 44.6   + 40 35 45.9  RB    n/a     0.7   n/a   LSR  RADIO 
 1926+611        19 27 30.44  + 61 17 32.88 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
 2023+760        20 22 35.58  + 76 11 26.18 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
 2351+456        23 54 21.68  + 45 53 04.24 RJ    n/a     0.3   n/a   LSR  RADIO [c] 0.3 -     Jy (2004 Aug)
+*
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+* BLAZARS IV  - coordinates from SMA catalog -  http://sma1.sma.hawaii.edu/callist/callist.html
+*
+*SOURCE         RA            DEC          EQUI  VEL    FLUX  RANGE  FRAME DEF   Comments
+*                                          NOX    -    0.85mm   -                observed range at 850um
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+0102+584        01 02 45.76  + 58 24 11.14 RJ    n/a     1.2   n/a   LSR  RADIO [c] 1.2 -     Jy (2009 Sept)
+2025+337        20 25 10.84  + 33 43 00.21 RJ    n/a     1.5   n/a   LSR  RADIO [c] 1.5 -     Jy (2009 Sept)
+0510+180        05 10 02.37  + 18 00 41.58 RJ    n/a     1.0   n/a   LSR  RADIO [c] 1.0 -     Jy (2009 Feb) 
 *
 * - -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM SOURCES : Compact HII regions, ABG and PMS - stars
