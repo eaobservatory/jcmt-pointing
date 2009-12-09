@@ -104,6 +104,7 @@
 * 2009 Aug 26 - NGC6563 and NGC6302 removed
 * 2009 Oct 05 - Revised coords for 3c111 and MWC349A
 * 2009 Oct 05 - Added sources from SMA catalog : 0102+584, 0510+180, 2025+337
+* 2009 Dec 09 - CAW change the holo source position
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -640,5 +641,5 @@ WYCas           23 58 01.30  + 56 29 13.5  RJ  +    8.0  0.4   40.0  LSR  RADIO 
 *           MISCELLANEOUS SOURCES
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-HOLO            92 54 40.0   + 08 35 07.00 AZ    n/a     n/a   n/a   LSR  RADIO [c] Position for holography
+HOLO            92 55 09.9   + 08 34 05.00 AZ    n/a     n/a   n/a   LSR  RADIO [c] Position for holography
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
