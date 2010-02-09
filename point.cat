@@ -105,6 +105,7 @@
 * 2009 Oct 05 - Revised coords for 3c111 and MWC349A
 * 2009 Oct 05 - Added sources from SMA catalog : 0102+584, 0510+180, 2025+337
 * 2009 Dec 09 - CAW change the holo source position
+* 2010 Feb 09 - Adjusted coordinates for  W3(OH)
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -388,12 +389,12 @@ CygA            19 57 44.6   + 40 35 45.9  RB    n/a     0.7   n/a   LSR  RADIO 
 *                      or s - as listed by Simbad (2000.0 FK5)
 *                                    - this is usually reserved for stellar sources
 * Fluxes - 2001 Jul - changed to 0.85mm fluxes, based on last 18months data. 
-*                     data for HH1-2VLA, TWHya, M8E, ON-1, V645Cyg are the old 1.1mm values
+*                     data for HH1-2VLA, Hya, M8E, ON-1, V645Cyg are the old 1.1mm values
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *SOURCE         RA            DEC          EQUI  VEL     FLUX  RANGE  FRAME DEF   Comments
 *                                          NOX    -      0.85mm   -                c = coco  s = simbad
 * - -- -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-W3(OH)          02 27 04.1   + 61 52 22.   RJ  -   45.0 35.0   n/a   LSR  RADIO [c] c 
+W3(OH)          02 27 03.85  + 61 52 24.8  RJ  -   45.0 35.0   n/a   LSR  RADIO [c] c 
 GL490           03 27 38.842 + 58 47 00.51 RJ  -   12.5  5.0   n/a   LSR  RADIO [c] c 
 TTau            04 21 59.43  + 19 32 06.4  RJ  +    7.5  1.3   n/a   LSR  RADIO [c] s T Tauri star            
 DGTau           04 27 04.7   + 26 06 17.   RJ  +    5.0  0.9   n/a   LSR  RADIO [c] s T Tauri star; use 120" chop            
