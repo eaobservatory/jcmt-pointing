@@ -106,6 +106,24 @@
 * 2009 Oct 05 - Added sources from SMA catalog : 0102+584, 0510+180, 2025+337
 * 2009 Dec 09 - CAW change the holo source position
 * 2010 Feb 09 - Adjusted coordinates for  W3(OH)
+* 2012 Jan 12 - Add SCUBA-2 calibrators
+*
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+* SCUBA-2 CALIBRATORS
+* SOURCE        RA            DEC          EQUI  VEL    FLUX  RANGE  FRAME DEF   Comments
+*                                          NOX    -    0.85mm   -                observed range at 850um
+* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+HD135344B       15 15 48.560 - 37 09 15.90 RJ    n/a     0.5     n/a LSR  RADIO [c]  Sandell 2011
+Arp220          15 34 57.272 + 23 30 10.48 RJ    n/a     0.8     n/a LSR  RADIO [c]  BLAST SED curve
+HD141569        15 49 57.750 - 03 55 16.40 RJ    n/a     0.01    n/a LSR  RADIO [c]  Sandell 2011 
+HD142666        15 56 40.013 - 22 01 39.03 RJ    n/a     0.3     n/a LSR  RADIO [c]  Sandell 2011 
+HR5999          16 08 34.420 - 39 06 18.33 RJ    n/a     0.06    n/a LSR  RADIO [c]  Sandell 2011 
+KKOph           17 10 08.120 - 27 15 18.80 RJ    n/a     0.1     n/a LSR  RADIO [c]  Sandell 2011 
+HD169142        18 24 29.870 - 29 46 48.95 RJ    n/a     0.6     n/a LSR  RADIO [c]  Sandell 2011 
+MWC349A         20 32 45.530 + 40 39 36.62 RJ    n/a     2.6     n/a LSR  RADIO [c]  Sandell 2011 
+PVCep           20 45 54.310 + 67 57 40.70 RJ    n/a     1.0     n/a LSR  RADIO [c]  Sandell 2011  
+V645Cyg         21 39 58.260 + 50 14 22.3  RJ    n/a     2.4     n/a LSR  RADIO [c]  Sandell 2011. Extended source (14".2 x 8".5)
+*
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *  CONTINUUM POINTING SOURCES : BLAZARS
 *
@@ -126,7 +144,6 @@
 *SOURCE         RA            DEC          EQUI  VEL    FLUX  RANGE  FRAME DEF   Comments
 *                                          NOX    -    0.85mm   -                observed range at 850um
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-
 0003-066        00 06 13.893 - 06 23 35.33 RJ    n/a     1.0   n/a   LSR  RADIO [c] 1.7 - 1.1 Jy (2005 Jan)
 0048-097        00 50 41.318 - 09 29 05.21 RJ    n/a     0.4   n/a   LSR  RADIO [c] 0.4 - 0.5 Jy (2005 Jan)
 PKS0106         01 08 38.771 + 01 35 00.32 RJ    n/a     0.2   n/a   LSR  RADIO [c] 0.1 - 0.3 Jy (2004 Aug-Oct)
