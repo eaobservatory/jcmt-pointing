@@ -156,6 +156,7 @@
 *               for 658GHz, according to Baudry 2017, and Hunter 2007
 * 2025 Aug 13 - applied proper motion and 2000 coordinates from JCMT internal website with
 *               placeholder parallax of 0.1 and removed pm flag from comments
+* 2025 Sep 30 - made V1111Oph, WXPsc coordinates consistent in [w] category
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 * SCUBA-2 CALIBRATORS
@@ -744,14 +745,14 @@ UDor            05 10 08.780 - 64 19 05.40 RJ  +   29.0  0.7     n/a  LSR  RADIO
 UMen            04 09 35.710 - 81 51 18.10 RJ  +   20.0  5.8     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 UOri            05 55 49.120 + 20 10 36.50 RJ  -   40.0  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
 UUPeg           21 31 04.160 + 11 09 13.30 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-V1111Oph        18 37 19.380 + 10 25 41.40 RJ  -   32.0  5.3     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
+V1111Oph        18 37 19.260 + 10 25 42.20 RJ  -   32.0  5.3     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 V2108Oph        17 14 19.370 + 08 56 02.50 RJ  +   13.0  1.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 Vcam            06 02 32.294 + 74 30 27.25 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 VXSgr           18 08 04.100 - 22 13 25.60 RJ  +    6.0  5.1     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
 VYCMa           07 22 58.329 - 25 46 03.24 RJ  +   19.0  2.6    92.0  LSR  RADIO +    6.352 -    6.750   0.1000 [wd]
 WHya            13 49 01.998 - 28 22 03.49 RJ  +   41.3  2.0    20.0  LSR  RADIO -   56.039 -   59.710   0.1000 [wd]
 WPeg            23 19 50.510 + 26 16 43.80 RJ  -   15.6  3.6     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-WXPsc           01 06 26.010 + 12 35 52.80 RJ  +   16.0  2.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
+WXPsc           01 06 25.980 + 12 35 53.00 RJ  +   16.0  2.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 XCen            11 49 11.850 - 41 45 28.00 RJ  +   28.0  1.0     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 XOph            18 38 21.140 + 08 50 02.10 RJ  -   52.5  1.6     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 XPav            20 11 46.030 - 59 56 12.70 RJ  -   21.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
