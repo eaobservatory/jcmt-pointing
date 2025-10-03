@@ -294,7 +294,7 @@ BLLAC           22 02 43.291 + 42 16 39.98 RJ    n/a     1.58    n/a  LSR  RADIO
 2227-088        22 29 40.084 - 08 32 54.44 RJ    n/a     0.45    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20190502
 2230+114        22 32 36.409 + 11 43 50.90 RJ    n/a     1.19    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20190426
 2243-123        22 46 18.232 - 12 06 51.28 RJ    n/a     0.19    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20181029
-*3C454.3        22 53 57.748 + 16 08 53.56 RJ    n/a     3.17    n/a  LSR  RADIO [c] [S2] 20190315
+*3C454.3        22 53 57.748 + 16 08 53.56 RJ    n/a     3.17    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20190315
 2251+158        22 53 57.748 + 16 08 53.56 RJ    n/a     3.17    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20190315
 2255-282        22 58 05.963 - 27 58 21.26 RJ    n/a     2.37    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20190508
 2318+049        23 20 44.857 + 05 13 49.95 RJ    n/a     0.41    n/a  LSR  RADIO    n/a        n/a       n/a    [c] [S2] 20181029
@@ -479,7 +479,7 @@ TWHya           11 01 51.905 - 34 42 17.03 RJ  +    0.0  0.8     n/a  LSR  RADIO
 16293-2422      16 32 22.909 - 24 28 35.60 RJ  +    4.0 16.3     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c Secondary flux calibrator
 G343.0          16 58 17.136 - 42 52 06.61 RJ  -   31.0 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 NGC6334I        17 20 53.445 - 35 47 01.67 RJ  -    6.9 60.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
-*BVP1           17 43 10.32  - 29 51 43.5  RJ  -   20.0  1.5     n/a  LSR  RADIO [c] c
+*BVP1           17 43 10.32  - 29 51 43.5  RJ  -   20.0  1.5     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 G5.89           18 00 30.376 - 24 04 00.48 RJ  +   10.0 48.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 M8E             18 04 52.957 - 24 26 39.36 RJ  +   11.0  2.8     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 G10.62          18 10 28.661 - 19 55 49.76 RJ  -    3.5 50.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
@@ -489,11 +489,11 @@ K3-50           20 01 45.689 + 33 32 43.52 RJ  -   23.7 20.0     n/a  LSR  RADIO
 ON-1            20 10 09.146 + 31 31 37.67 RJ  +   11.8  4.7     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 GL2591          20 29 24.719 + 40 11 18.87 RJ  -    5.8  3.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 W75N            20 38 36.433 + 42 37 34.49 RJ  +   12.5 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
-*MWC349A        20 32 45.53  + 40 39 36.62 RJ  -    6.6  1.9     n/a  LSR  RADIO [c] s True point source
-*PVCep          20 45 54.39  + 67 57 38.8  RJ  +    3.0  1.2     n/a  LSR  RADIO [c] s
+*MWC349A        20 32 45.53  + 40 39 36.62 RJ  -    6.6  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [c] s True point source
+*PVCep          20 45 54.39  + 67 57 38.8  RJ  +    3.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [c] s
 CRL2688         21 02 18.750 + 36 41 37.80 RJ  -   35.4  5.9    80.0  LSR  RADIO    n/a        n/a       n/a    [c] c Secondary flux calibrator
 NGC7027         21 07 01.598 + 42 14 10.02 RJ  +   26.0  5.0    50.0  LSR  RADIO    n/a        n/a       n/a    [c] c
-*V645Cyg        21 39 58.2   + 50 14 22.   RJ  -   43.7  0.9     n/a  LSR  RADIO [c] s
+*V645Cyg        21 39 58.2   + 50 14 22.   RJ  -   43.7  0.9     n/a  LSR  RADIO    n/a        n/a       n/a    [c] s
 LKHA234         21 43 06.170 + 66 06 56.09 RJ  -   10.0  5.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c Herbig Be star
 N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0 33.0     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
 N7538IRS9       23 14 01.682 + 61 27 19.96 RJ  -   58.0  6.5     n/a  LSR  RADIO    n/a        n/a       n/a    [c] c
