@@ -158,6 +158,8 @@
 *               placeholder parallax of 0.1 and removed pm flag from comments
 * 2025 Sep 30 - made V1111Oph, WXPsc coordinates consistent in [w] category
 * 2025 Oct 03 - updated sources having proper motion with coords, pm and parallax from SIMBAD
+* 2025 Oct 23 - commented out [l] entries (for heterodyne pointing) for W75N and N2071IR
+*               since they are extended and give poor results in A band
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 * SCUBA-2 CALIBRATORS
@@ -769,8 +771,8 @@ RUHya           14 11 34.397 - 28 53 07.44 RJ  -    2.8  0.3     n/a  LSR  RADIO
 *
 * CO6-5 line sources used for Kuntur pointing
 *
-W75N            20 38 36.433 + 42 37 34.49 RJ  +   12.5 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
-N2071IR         05 47 04.851 + 00 21 47.10 RJ  +    9.5 16.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
+*W75N           20 38 36.433 + 42 37 34.49 RJ  +   12.5 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
+*N2071IR        05 47 04.851 + 00 21 47.10 RJ  +    9.5 16.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
 N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0 33.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
 NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  3.0    56.0  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
 IRC+10216       09 47 57.406 + 13 16 43.56 RJ  -   25.6 31.8    35.0  LSR  RADIO +   34.770 +   10.000  10.7900 [l] bright CO 6-5 source
