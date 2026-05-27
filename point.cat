@@ -152,14 +152,14 @@
 * 2023 Apr 03 - removed 13 86GHz sources that are tested bad
 * 2023 Apr 13 - further update to 86GHz source list
 * 2023 Dec 05 - Added [d] to a few sources of [l] and [w] category
-*             - Added UHer,RTEri,RUHya to [d] category
-*               for 658GHz, according to Baudry 2017, and Hunter 2007
+*             - Added UHer,RTEri,RUHya to [d] category for 658GHz, from Baudry 2017, and Hunter 2007
 * 2025 Aug 13 - applied proper motion and 2000 coordinates from JCMT internal website with
 *               placeholder parallax of 0.1 and removed pm flag from comments
 * 2025 Sep 30 - made V1111Oph, WXPsc coordinates consistent in [w] category
 * 2025 Oct 03 - updated sources having proper motion with coords, pm and parallax from SIMBAD
 * 2025 Oct 23 - commented out [l] entries (for heterodyne pointing) for W75N and N2071IR
 *               since they are extended and give poor results in A band
+* 2026 Apr 13 - Added Betelgeuse,NMLCyg,IRC+10420,AFGL2343 for Kuntur pointing, from Teyssier 2012
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 * SCUBA-2 CALIBRATORS
@@ -571,7 +571,7 @@ CIT6            10 16 02.290 + 30 34 19.10 RJ  -    1.9  6.9    45.0  LSR  RADIO
 RTVir           13 02 37.981 + 05 11 08.36 RJ  +   18.0  0.8    20.0  LSR  RADIO +   37.189 -   17.714   4.1374 [l] AH L1/H 0.58 7.6 ; 0.76 9.7
 WHya            13 49 02.002 - 28 22 03.53 RJ  +   41.3  2.0    20.0  LSR  RADIO -   58.839 -   59.688   6.0906 [l] AH L1/H 0.91 10.3 ; 2.0 26.1
 RXBoo           14 24 11.625 + 25 42 13.39 RJ  +    1.1  2.3    22.0  LSR  RADIO +   22.055 -   48.615   6.4239 [l] AH L1/H 1.4 20.3 ; 2.3 33.5
-SCrB            15 21 23.955 + 31 22 02.58 RJ  +    2.0  1.0    18.0  LSR  RADIO -   11.886 -   12.432   2.5955 [ld] AH L1/H 0.55 5.7 ; 1.0 10.2
+SCrB            15 21 23.955 + 31 22 02.58 RJ  +    2.0  1.0    18.0  LSR  RADIO -   11.886 -   12.432   2.5955 [l] AH L1/H 0.55 5.7 ; 1.0 10.2
 V814Her         17 44 55.469 + 50 02 39.48 RJ  -   35.0  0.6    30.0  LSR  RADIO -    2.588 -   11.854   0.5022 [l] AH L1/H 0.53 9.4 ; 0.64 12.6
 V1111Oph        18 37 19.260 + 10 25 42.20 RJ  -   30.0  1.4    40.0  LSR  RADIO    n/a        n/a       n/a    [l] AH L1/2M 0.85 22.1 ; 1.4 32.8
 RAql            19 06 22.251 + 08 13 48.01 RJ  +   47.3  2.2    21.0  LSR  RADIO +    4.356 -   68.766   4.2779 [l] AH L1/H 1.3 15.6 ; 2.2 25.9
@@ -581,7 +581,7 @@ GYAql           19 50 06.330 - 07 36 52.47 RJ  +   34.0  1.3    28.0  LSR  RADIO
 KiCyg           19 50 33.921 + 32 54 50.58 RJ  +   10.0  4.1    23.0  LSR  RADIO -   28.690 -   41.239   6.2686 [l] AH L1/H 2.8 42.7 ; 4.1 59.4
 RRAql           19 57 36.062 - 01 53 11.34 RJ  +   28.0  1.2    19.0  LSR  RADIO -   20.435 -   47.694   1.9532 [l] AH L1/H 0.69 8.2 ; 1.2 13.8
 VCyg            20 41 18.268 + 48 08 28.81 RJ  +   14.0  3.7    25.0  LSR  RADIO -   10.848 -   13.582   1.8331 [l] AH L1/H 2.3 40.7 ; 3.7 63.2
-NMLCyg          20 46 25.540 + 40 06 59.40 RJ  +    1.0  3.1    67.0  LSR  RADIO    n/a        n/a       n/a    [ld] AH L1/2M 1.5 65.3 ; 3.1 141.4
+NMLCyg          20 46 25.539 + 40 06 59.46 RJ  +    1.0  3.1    67.0  LSR  RADIO -    1.601 -    5.595   0.5279 [l] AH L1/2M 1.5 65.3 ; 3.1 141.4
 NGC7027         21 07 01.598 + 42 14 10.02 RJ  +   26.0 12.9    50.0  LSR  RADIO    n/a        n/a       n/a    [l] AH L1+ 7.8 194.2 ; 12.9 276.0
 SCep            21 35 12.823 + 78 37 28.19 RJ  -   16.0  0.8    63.0  LSR  RADIO +   41.970 +    0.748   2.0452 [l] AH L1/H 0.84 31.3 ; 0.77 25.3
 RCas            23 58 24.868 + 51 23 19.71 RJ  +   25.0  4.1    31.0  LSR  RADIO +  132.761 +   17.485   5.7423 [l] AH L1/H 2.3 36.4 ; 4.1 65.9
@@ -704,37 +704,37 @@ GL3099          23 28 17.107 + 10 54 37.35 RJ  +   46.0  1.5    21.0  LSR  RADIO
 *- -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *- -- -- -- -- -- --  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
-AHSco           17 11 16.900 - 32 19 32.40 RJ  +    0.0  4.3     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
+AHSco           17 11 17.019 - 32 19 30.71 RJ  +    0.0  4.3     n/a  LSR  RADIO -    2.760 -    2.610   0.5632 [w]
 AUCyg           20 18 32.770 + 34 23 20.50 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 BXCam           05 46 44.290 + 69 58 24.20 RJ  -    2.0  0.8    45.0  LSR  RADIO    n/a        n/a       n/a    [w]
 ChiCyg          19 50 33.900 + 32 54 51.60 RJ  +   12.0  9.7     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-IKTau           03 53 28.700 + 11 24 22.70 RJ  +   33.7 12.0     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
+IKTau           03 53 28.700 + 11 24 22.70 RJ  +   36.2 12.0     n/a  LSR  RADIO +   29.839 -   24.698   3.8356 [w]
 IRC+60169       06 34 33.420 + 60 56 27.70 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 IRSV1540        15 44 39.900 - 54 23 04.40 RJ  -   82.0  2.3     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 GXMon           06 52 47.040 + 08 25 19.20 RJ  -    9.0  1.8    40.0  LSR  RADIO    n/a        n/a       n/a    [w]
 L2Pup           07 13 32.310 - 44 38 24.10 RJ  +   28.0  2.2     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 MIRA            02 16 49.100 - 03 12 22.00 RJ  +   48.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  n/a    56.0  LSR  RADIO    n/a        n/a       n/a    [wd]
-oCeti           02 19 20.792 - 02 58 39.50 RJ  +   46.5 43.1    19.0  LSR  RADIO +    9.343 -  237.360  10.9100 [wd]
+NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  n/a    56.0  LSR  RADIO    n/a        n/a       n/a    [w]
+oCeti           02 19 20.792 - 02 58 39.50 RJ  +   46.5 43.1    19.0  LSR  RADIO +    9.343 -  237.360  10.9100 [w]
 OH2.6-0.4       17 53 18.920 - 26 56 37.10 RJ  -    3.0  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 Orion           05 35 14.500 - 05 22 29.60 RJ  +    5.0 38.0     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-RAql            19 06 22.251 + 08 13 48.01 RJ  +   44.0  1.7     n/a  LSR  RADIO +    4.356 -   68.766   4.2779 [wd]
+RAql            19 06 22.251 + 08 13 48.01 RJ  +   44.0  1.7     n/a  LSR  RADIO +    4.356 -   68.766   4.2779 [w]
 RAqr            23 43 49.450 - 15 17 04.30 RJ  -   27.0  3.5     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-RCas            23 58 24.868 + 51 23 19.71 RJ  +   25.0  4.1    31.0  LSR  RADIO +  132.761 +   17.485   5.7423 [wd]
+RCas            23 58 24.868 + 51 23 19.71 RJ  +   25.0  4.1    31.0  LSR  RADIO +  132.761 +   17.485   5.7423 [w]
 RCar            09 32 14.480 - 62 47 19.70 RJ  +    7.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 RCnc            08 16 33.810 + 11 43 34.20 RJ  +   15.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-RCrt            11 00 33.853 - 18 19 29.58 RJ  +   14.0  1.3     n/a  LSR  RADIO -   30.942 -    2.499   4.7027 [wd]
-RDor            04 36 45.591 - 62 04 37.80 RJ  +   11.0 24.5     n/a  LSR  RADIO -  148.116 -   75.780  18.3100 [wd]
-RHor            02 53 52.770 - 49 53 22.73 RJ  +   36.5  1.2     n/a  LSR  RADIO +  199.557 +   35.766   4.3236 [wd]
-RHya            13 29 42.780 - 23 16 52.75 RJ  -   10.0  2.5    19.0  LSR  RADIO -   59.019 +   11.794   6.7355 [wd]
-RLeo            09 47 33.484 + 11 25 43.82 RJ  -    0.4  2.4    17.0  LSR  RADIO +    6.256 -   53.097  14.0566 [wd]
+RCrt            11 00 33.853 - 18 19 29.58 RJ  +   14.0  1.3     n/a  LSR  RADIO -   30.942 -    2.499   4.7027 [w]
+RDor            04 36 45.591 - 62 04 37.80 RJ  +   11.0 24.5     n/a  LSR  RADIO -  148.116 -   75.780  18.3100 [w]
+RHor            02 53 52.770 - 49 53 22.73 RJ  +   36.5  1.2     n/a  LSR  RADIO +  199.557 +   35.766   4.3236 [w]
+RHya            13 29 42.780 - 23 16 52.75 RJ  -   10.0  2.5    19.0  LSR  RADIO -   59.019 +   11.794   6.7355 [w]
+RLeo            09 47 33.484 + 11 25 43.82 RJ  -    0.4  2.4    17.0  LSR  RADIO +    6.256 -   53.097  14.0566 [w]
 RLMi            09 45 34.284 + 34 30 42.81 RJ  +    0.1  0.9    20.0  LSR  RADIO +    2.011 -    1.734   3.4459 [w]
 ROct            05 26 06.740 - 86 23 18.80 RJ  +   21.0  0.5     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 RRAql           19 57 36.062 - 01 53 11.34 RJ  +   26.0  1.5     n/a  LSR  RADIO -   20.435 -   47.694   1.9532 [w]
 RTAql           19 38 01.600 + 11 43 18.50 RJ  -   31.0  0.8     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-RTVir           13 02 37.981 + 05 11 08.36 RJ  +   18.0  0.8     n/a  LSR  RADIO +   37.189 -   17.714   4.1374 [wd]
+RTVir           13 02 37.981 + 05 11 08.36 RJ  +   18.0  0.8     n/a  LSR  RADIO +   37.189 -   17.714   4.1374 [w]
 RWVel           09 20 19.570 - 49 31 27.20 RJ  -   12.5  1.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-RXBoo           14 24 11.625 + 25 42 13.39 RJ  +    1.1  n/a    22.0  LSR  RADIO +   22.055 -   48.615   6.4239 [wd]
+RXBoo           14 24 11.625 + 25 42 13.39 RJ  +    1.1  n/a    22.0  LSR  RADIO +   22.055 -   48.615   6.4239 [w]
 SPav            19 55 13.900 - 59 11 43.70 RJ  -   18.0  0.6     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 SPic            05 10 57.240 - 48 30 26.00 RJ  -    1.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 SSTel           18 32 18.480 - 56 37 00.40 RJ  +    4.0  1.0     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
@@ -743,41 +743,69 @@ SVS01835        04 57 01.750 - 84 16 05.80 RJ  -    8.0  2.2     n/a  LSR  RADIO
 SVS03513        07 17 05.680 - 34 49 39.00 RJ  -   19.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 SVS03731        07 46 34.200 - 32 18 16.60 RJ  +   30.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 TLep            05 04 50.830 - 21 54 16.60 RJ  -   28.0  1.3     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-TXCam           05 00 51.220 + 56 10 54.20 RJ  +    9.2  n/a    45.0  LSR  RADIO    n/a        n/a       n/a    [wd]
+TXCam           05 00 51.220 + 56 10 54.20 RJ  +    9.2  n/a    45.0  LSR  RADIO    n/a        n/a       n/a    [w]
 UDor            05 10 08.780 - 64 19 05.40 RJ  +   29.0  0.7     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 UMen            04 09 35.710 - 81 51 18.10 RJ  +   20.0  5.8     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-UOri            05 55 49.120 + 20 10 36.50 RJ  -   40.0  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
+UOri            05 55 49.120 + 20 10 36.50 RJ  -   40.0  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 UUPeg           21 31 04.160 + 11 09 13.30 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 V1111Oph        18 37 19.260 + 10 25 42.20 RJ  -   32.0  5.3     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 V2108Oph        17 14 19.370 + 08 56 02.50 RJ  +   13.0  1.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 Vcam            06 02 32.294 + 74 30 27.25 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-VXSgr           18 08 04.100 - 22 13 25.60 RJ  +    6.0  5.1     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
-VYCMa           07 22 58.326 - 25 46 03.19 RJ  +   19.0  2.6    92.0  LSR  RADIO -    2.937 +    2.232   0.4192 [wd]
-WHya            13 49 02.002 - 28 22 03.53 RJ  +   41.3  2.0    20.0  LSR  RADIO -   58.839 -   59.688   6.0906 [wd]
+VXSgr           18 08 04.100 - 22 13 25.60 RJ  +    6.0  5.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
+VYCMa           07 22 58.326 - 25 46 03.19 RJ  +   19.0  2.6    92.0  LSR  RADIO -    2.937 +    2.232   0.4192 [w]
+WHya            13 49 02.002 - 28 22 03.53 RJ  +   41.3  2.0    20.0  LSR  RADIO -   58.839 -   59.688   6.0906 [w]
 WPeg            23 19 50.510 + 26 16 43.80 RJ  -   15.6  3.6     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 WXPsc           01 06 25.980 + 12 35 53.00 RJ  +   16.0  2.1     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 XCen            11 49 11.850 - 41 45 28.00 RJ  +   28.0  1.0     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 XOph            18 38 21.140 + 08 50 02.10 RJ  -   52.5  1.6     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
-XPav            20 11 46.030 - 59 56 12.70 RJ  -   21.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [wd]
+XPav            20 11 46.030 - 59 56 12.70 RJ  -   21.0  1.2     n/a  LSR  RADIO    n/a        n/a       n/a    [w]
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *
-* 658GHz water maser sources, added 2023-12-04 from Baudry 2017 & Hunter 2007
+* 658.006GHz water maser H2O v2=1 sources
 *
-UHer            16 25 47.472 + 18 53 53.86 RJ  -   21.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
-RTEri           03 34 12.480 - 16 09 50.64 RJ  +   24.9  0.4     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
-RUHya           14 11 34.397 - 28 53 07.44 RJ  -    2.8  0.3     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
+AHSco           17 11 17.019 - 32 19 30.71 RJ  +    0.0  4.3     n/a  LSR  RADIO -    2.760 -    2.610   0.5632 [D]
+IKTau           03 53 28.700 + 11 24 21.90 RJ  +   36.2 12.0     n/a  LSR  RADIO +   29.839 -   24.698   3.8356 [D]
+NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  n/a    56.0  LSR  RADIO    n/a        n/a       n/a    [D]
+oCeti           02 19 20.792 - 02 58 39.50 RJ  +   46.5 43.1    19.0  LSR  RADIO +    9.343 -  237.360  10.9100 [D]
+RAql            19 06 22.251 + 08 13 48.01 RJ  +   44.0  1.7     n/a  LSR  RADIO +    4.356 -   68.766   4.2779 [D]
+RCas            23 58 24.868 + 51 23 19.71 RJ  +   25.0  4.1    31.0  LSR  RADIO +  132.761 +   17.485   5.7423 [D]
+RCrt            11 00 33.853 - 18 19 29.58 RJ  +   14.0  1.3     n/a  LSR  RADIO -   30.942 -    2.499   4.7027 [D]
+RHya            13 29 42.780 - 23 16 52.75 RJ  -   10.0  2.5    19.0  LSR  RADIO -   59.019 +   11.794   6.7355 [D]
+RLeo            09 47 33.484 + 11 25 43.82 RJ  -    0.4  2.4    17.0  LSR  RADIO +    6.256 -   53.097  14.0566 [D]
+RUHya           14 11 34.397 - 28 53 07.44 RJ  -    2.8  0.3     n/a  LSR  RADIO    n/a        n/a       n/a    [D]
+RTVir           13 02 37.981 + 05 11 08.36 RJ  +   18.0  0.8     n/a  LSR  RADIO +   37.189 -   17.714   4.1374 [D]
+RXBoo           14 24 11.625 + 25 42 13.39 RJ  +    1.1  n/a    22.0  LSR  RADIO +   22.055 -   48.615   6.4239 [D]
+SCrB            15 21 23.955 + 31 22 02.58 RJ  +    2.0  1.0    18.0  LSR  RADIO -   11.886 -   12.432   2.5955 [D]
+TXCam           05 00 51.220 + 56 10 54.20 RJ  +    9.2  n/a    45.0  LSR  RADIO    n/a        n/a       n/a    [D]
+UOri            05 55 49.120 + 20 10 36.50 RJ  -   40.0  1.9     n/a  LSR  RADIO    n/a        n/a       n/a    [D]
+UHer            16 25 47.472 + 18 53 53.86 RJ  -   21.0  n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [D]
+VXSgr           18 08 04.100 - 22 13 25.60 RJ  +    6.0  5.1     n/a  LSR  RADIO    n/a        n/a       n/a    [D]
+VYCMa           07 22 58.326 - 25 46 03.19 RJ  +   19.0  2.6    92.0  LSR  RADIO -    2.937 +    2.232   0.4192 [D]
+W49N            19 10 13.200 + 09 06 12.00 RJ    n/a     n/a     n/a  LSR  RADIO    n/a        n/a       n/a    [D]
+WHya            13 49 02.002 - 28 22 03.53 RJ  +   41.3  2.0    20.0  LSR  RADIO -   58.839 -   59.688   6.0906 [D]
 *
 *
-* CO6-5 line sources used for Kuntur pointing
+* 691.473GHz CO 6-5 line sources used for Kuntur pointing
 *
-*W75N           20 38 36.433 + 42 37 34.49 RJ  +   12.5 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
-*N2071IR        05 47 04.851 + 00 21 47.10 RJ  +    9.5 16.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
-N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0 33.0     n/a  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
-NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  3.0    56.0  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
-IRC+10216       09 47 57.406 + 13 16 43.56 RJ  -   25.6 31.8    35.0  LSR  RADIO +   34.770 +   10.000  10.7900 [l] bright CO 6-5 source
-oCeti           02 19 20.792 - 02 58 39.50 RJ  +   46.5 14.4    19.0  LSR  RADIO +    9.343 -  237.360  10.9100 [l] bright CO 6-5 source
-CIT6            10 16 02.290 + 30 34 19.10 RJ  -    1.9  6.9    45.0  LSR  RADIO    n/a        n/a       n/a    [l] bright CO 6-5 source
+AFGL5379        17 44 24.007 - 31 55 35.41 RJ  -   23.0  1.9    52.0  LSR  RADIO -    2.921 -    0.941   n/a    [d]
+AHSco           17 11 17.019 - 32 19 30.71 RJ  +    0.0  4.3     n/a  LSR  RADIO -    2.332 -    2.610   0.5632 [d]
+Betelgeuse      05 55 10.305 + 07 24 25.43 RJ  -   12.0 13.2    24.0  LSR  RADIO +   27.772 +   11.300   6.5500 [d] 654(17)mK 
+CIT6            10 16 02.290 + 30 34 19.10 RJ  -    1.9  6.9    45.0  LSR  RADIO    n/a        n/a       n/a    [d]
+G10.62          18 10 28.661 - 19 55 49.76 RJ  -    3.5 50.0     n/a  LSR  RADIO    n/a        n/a       n/a    [d] 
+G34.3           18 53 18.569 + 01 14 58.26 RJ  +   58.1 70.0     n/a  LSR  RADIO    n/a        n/a       n/a    [d] 
+IKTau           03 53 28.700 + 11 24 21.90 RJ  +   36.2 12.0     n/a  LSR  RADIO +   29.839 -   24.698   3.8356 [d]
+IRC+10216       09 47 57.406 + 13 16 43.56 RJ  -   25.6 31.8    35.0  LSR  RADIO +   34.770 +   10.000  10.7900 [d]
+IRC+10420       19 26 48.098 + 11 21 16.76 RJ  +   37.0 19.1   115.0  LSR  RADIO -    1.895 -    7.531   0.2040 [d] 364(20)mk
+N2071IR         05 47 04.851 + 00 21 47.10 RJ  +    9.5 16.0     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
+N7538IRS1       23 13 45.346 + 61 28 10.32 RJ  -   58.0 33.0     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
+NMLTau          03 53 28.870 + 11 24 21.70 RJ  +   30.5  3.0    56.0  LSR  RADIO    n/a        n/a       n/a    [d]
+oCeti           02 19 20.792 - 02 58 39.50 RJ  +   46.5 14.4    19.0  LSR  RADIO +    9.343 -  237.360  10.9100 [d]
+RCas            23 58 24.868 + 51 23 19.71 RJ  +   25.0  4.1    31.0  LSR  RADIO +  132.761 +   17.485   5.7423 [d]
+RScl            01 26 58.094 - 32 32 35.44 RJ    n/a     n/a     n/a  LSR  RADIO -   10.928 -   30.813   2.5437 [d]
+TXCam           05 00 51.220 + 56 10 54.20 RJ  +    9.2  n/a    45.0  LSR  RADIO    n/a        n/a       n/a    [d]
+W75N            20 38 36.433 + 42 37 34.49 RJ  +   12.5 35.0     n/a  LSR  RADIO    n/a        n/a       n/a    [d]
+WHya            13 49 02.002 - 28 22 03.53 RJ  +   41.3  2.0    20.0  LSR  RADIO -   58.839 -   59.688   6.0906 [d]
 *
 * -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 *           MISCELLANEOUS SOURCES
